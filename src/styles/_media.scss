@@ -1,0 +1,17 @@
+@media screen and (max-width: '765px') {
+	.song-container {
+		img {
+			width: 50%;
+		}
+	}
+
+	nav {
+		button {
+			z-index: 999;
+		}
+	}
+
+	.library {
+		width: 100%;
+	}
+}

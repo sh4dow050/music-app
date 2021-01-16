@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Lora', serif;
+}
+
+h2,
+h3,
+h4,
+h5 {
+	color: rgb(51, 51, 51);
+}
+
+nav {
+	min-height: 10vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	button {
+		cursor: pointer;
+		border: 2px solid grey;
+		outline: none;
+		background: transparent;
+		padding: 0.3rem 0.5rem;
+		transition: all 0.3s ease;
+		&:hover {
+			background: grey;
+			color: white;
+		}
+	}
+}
+
+@import './player';
+@import './library';
+@import './media';
